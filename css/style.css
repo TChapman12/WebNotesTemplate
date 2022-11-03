@@ -1,0 +1,177 @@
+:root {
+  --davys-grey: #575761ff;
+  --cadet: #546a76ff;
+  --midnight-green-eagle-green: #073b4cff;
+  --russian-violet: #120d31ff;
+  --space-cadet: #302f4dff;
+  --black: #000000;
+  --important: #008d92;
+  --note: #0041bb;
+  --question: #9e0000;
+  --bg: #cfcfcf;
+}
+
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+
+/* BODY */
+body {
+  background-color: var(--cadet);
+  align-items: center;
+  margin-left: 1cm;
+  margin-right: 1cm;
+}
+
+/* CENTER WITH BORDER */
+.center-border {
+  margin: auto;
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 5px solid var(--black);
+  border-radius: 30px;
+  background-color: var(--bg);
+}
+
+/* PAGE TITLE */
+.title {
+  font-size: 30px;
+  text-align: center;
+  line-height: 15px;
+  color: var(--black);
+  font-family: "Exo 2", sans-serif;
+}
+
+/* SPACER */
+.spacer {
+  font-size: 100px;
+}
+.note-spacer {
+  font-size: 30px;
+}
+
+/* NOTES */
+.note {
+  padding: 10px;
+  width: 500px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  background-color: var(--bg);
+  border-radius: 0.5rem;
+
+  padding-left: 20px;
+  border-left: 15px solid var(--note);
+}
+
+.note > :first-child {
+  margin-top: 0;
+}
+
+.note > :last-child {
+  margin-bottom: 0;
+}
+
+.note-title {
+  font-family: "Exo 2", sans-serif;
+  font-size: 40px;
+}
+
+.note-text {
+  font-family: "Exo 2", sans-serif;
+  font-size: 25px;
+}
+
+/* QUESTIONS */
+.question {
+  padding: 10px;
+  width: 500px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  background-color: var(--bg);
+  border-radius: 0.5rem;
+
+  padding-left: 20px;
+  border-left: 15px solid var(--question);
+}
+
+.question > :first-child {
+  margin-top: 0;
+}
+
+.question > :last-child {
+  margin-bottom: 0;
+}
+
+.question-title {
+  font-family: "Exo 2", sans-serif;
+  font-size: 40px;
+}
+
+.question-text {
+  font-family: "Exo 2", sans-serif;
+  font-size: 25px;
+}
+
+/* IMPORTANT */
+.important {
+  padding: 10px;
+  width: 500px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  background-color: var(--bg);
+  border-radius: 0.5rem;
+
+  padding-left: 20px;
+  border-left: 15px solid var(--important);
+}
+
+.important > :first-child {
+  margin-top: 0;
+}
+
+.important > :last-child {
+  margin-bottom: 0;
+}
+
+.important-title {
+  font-family: "Exo 2", sans-serif;
+  font-size: 40px;
+}
+
+.important-text {
+  font-family: "Exo 2", sans-serif;
+  font-size: 25px;
+}
+
+/* SECTIONS */
+
+.column-note {
+  flex: 33.33%;
+  height: 200px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #cccccc;
+  text-align: center;
+}
+
+.column-question {
+  flex: 33.33%;
+  height: 200px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #cccccc;
+  text-align: center;
+}
+
+.column-important {
+  flex: 33.33%;
+  height: 200px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #cccccc;
+  text-align: center;
+}
+
+.container {
+  
+}
