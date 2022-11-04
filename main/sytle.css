@@ -1,0 +1,113 @@
+/* ROOT & FONTS */
+:root {
+  --bg-color: #cbcbcb;
+  --black: #000000;
+  --note-normal: #eb0000;
+  --note-question: #0447d7;
+  --note-important: #04ff00;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+
+/* BODY */
+body {
+  grid-template-columns: 3;
+  margin: 20px;
+  background-color: var(--bg-color);
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/* TITLE W/ BORDER */
+
+.title-border {
+  margin: auto;
+  padding: 10px;
+  width: 75%;
+  font-size: 25px;
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  border: 3px solid var(--black);
+  border-radius: 20px;
+}
+
+/* NOTE NORMAL */
+.normal {
+  display: grid;
+  grid-column: 1;
+  border: 4px dashed var(--black);
+  padding: 10px;
+  width: 66.66%;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border-left: 20px solid var(--note-normal);
+}
+
+.normal-text {
+  text-align: left;
+  font-size: 30px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.normal-title {
+  text-align: left;
+  font-size: 30px;
+  font-family: "Exo 2", sans-serif;
+}
+
+/* NOTE QUESTION */
+.question {
+  display: grid;
+  grid-column: 2;
+  border: 4px dashed var(--black);
+  padding: 10px;
+  width: 66.66%;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border-left: 20px solid var(--note-question);
+}
+
+.question-text {
+  text-align: left;
+  font-size: 30px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.question-title {
+  text-align: left;
+  font-size: 30px;
+  font-family: "Exo 2", sans-serif;
+}
+
+/* NOTE IMPORTANT */
+.important {
+  display: grid;
+  grid-column: 2;
+  border: 4px dashed var(--black);
+  padding: 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border-left: 20px solid var(--note-important);
+}
+
+.important-text {
+  text-align: left;
+  font-size: 30px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.important-title {
+  text-align: left;
+  font-size: 30px;
+  font-family: "Exo 2", sans-serif;
+}
