@@ -1,0 +1,215 @@
+:root {
+  --bg-color: #cbcbcb;
+  --black: #000000;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+
+body {
+  grid-template-columns: 3;
+  margin: 20px;
+  background-color: var(--bg-color);
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.page-title {
+  margin: auto;
+  padding: 10px;
+  width: 75%;
+  font-size: 25px;
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  border: 3px solid var(--black);
+  border-radius: 20px;
+}
+
+.center-div {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.button-am-studies {
+  cursor: pointer;
+  width: 75%;
+  background-color: #005dba;
+  border: none;
+  color: var(--black);
+  padding: 10px;
+  font-family: "Exo 2", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.button-am-studies:hover {
+  opacity: 0.6;
+}
+
+.button-am-lit {
+  cursor: pointer;
+  width: 75%;
+  background-color: #963fd4;
+  border: none;
+  color: var(--black);
+  padding: 10px;
+  font-family: "Exo 2", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.button-am-lit:hover {
+  opacity: 0.6;
+}
+
+.button-math {
+  cursor: pointer;
+  width: 75%;
+  background-color: #d43f3f;
+  border: none;
+  color: var(--black);
+  padding: 10px;
+  font-family: "Exo 2", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.button-math:hover {
+  opacity: 0.6;
+}
+
+.button-spanish {
+  cursor: pointer;
+  width: 75%;
+  background-color: #d4763f;
+  border: none;
+  color: var(--black);
+  padding: 10px;
+  font-family: "Exo 2", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.button-spanish:hover {
+  opacity: 0.6;
+}
+
+.button-health {
+  cursor: pointer;
+  width: 75%;
+  background-color: #72bc99;
+  border: none;
+  color: var(--black);
+  padding: 10px;
+  font-family: "Exo 2", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.button-health:hover {
+  opacity: 0.6;
+}
+
+.button-chem {
+  cursor: pointer;
+  width: 75%;
+  background-color: #cdc263;
+  border: none;
+  color: var(--black);
+  padding: 10px;
+  font-family: "Exo 2", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.button-chem:hover {
+  opacity: 0.6;
+}
+
+.button-comms {
+  cursor: pointer;
+  width: 75%;
+  background-color: #66bc54;
+  border: none;
+  color: var(--black);
+  padding: 10px;
+  font-family: "Exo 2", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.button-comms:hover {
+  opacity: 0.6;
+}
+
+.button-art {
+  cursor: pointer;
+  width: 75%;
+  background-color: #54aebc;
+  border: none;
+  color: var(--black);
+  padding: 10px;
+  font-family: "Exo 2", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.button-art:hover {
+  opacity: 0.6;
+}
